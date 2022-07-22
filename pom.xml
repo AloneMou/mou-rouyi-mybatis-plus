@@ -9,7 +9,6 @@
     <version>3.8.3</version>
 
     <name>ruoyi</name>
-    <url>http://www.ruoyi.vip</url>
     <description>若依管理系统</description>
 
     <properties>
@@ -230,8 +229,8 @@
     <repositories>
         <repository>
             <id>public</id>
-            <name>aliyun nexus</name>
-            <url>https://maven.aliyun.com/repository/public</url>
+            <name>repo1 nexus</name>
+            <url>https://repo1.maven.org/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
@@ -241,8 +240,8 @@
     <pluginRepositories>
         <pluginRepository>
             <id>public</id>
-            <name>aliyun nexus</name>
-            <url>https://maven.aliyun.com/repository/public</url>
+            <name>repo1 nexus</name>
+            <url>https://repo1.maven.org/maven2</url>
             <releases>
                 <enabled>true</enabled>
             </releases>
