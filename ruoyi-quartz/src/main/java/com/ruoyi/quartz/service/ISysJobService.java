@@ -2,6 +2,7 @@ package com.ruoyi.quartz.service;
 
 import java.util.List;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import org.quartz.SchedulerException;
 import com.ruoyi.common.exception.job.TaskException;
 import com.ruoyi.quartz.domain.SysJob;
@@ -11,7 +12,7 @@ import com.ruoyi.quartz.domain.SysJob;
  *
  * @author ruoyi
  */
-public interface ISysJobService {
+public interface ISysJobService extends IService<SysJob> {
     /**
      * 获取quartz调度器的计划任务
      *

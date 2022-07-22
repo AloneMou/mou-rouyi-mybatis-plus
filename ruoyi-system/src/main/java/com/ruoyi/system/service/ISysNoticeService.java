@@ -2,6 +2,7 @@ package com.ruoyi.system.service;
 
 import java.util.List;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.ruoyi.system.domain.SysNotice;
 
 /**
@@ -9,7 +10,7 @@ import com.ruoyi.system.domain.SysNotice;
  *
  * @author ruoyi
  */
-public interface ISysNoticeService {
+public interface ISysNoticeService extends IService<SysNotice> {
     /**
      * 查询公告信息
      *

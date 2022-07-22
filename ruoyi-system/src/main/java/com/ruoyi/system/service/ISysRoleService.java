@@ -3,6 +3,7 @@ package com.ruoyi.system.service;
 import java.util.List;
 import java.util.Set;
 
+import com.baomidou.mybatisplus.extension.service.IService;
 import com.ruoyi.common.core.domain.entity.SysRole;
 import com.ruoyi.system.domain.SysUserRole;
 
@@ -11,7 +12,7 @@ import com.ruoyi.system.domain.SysUserRole;
  *
  * @author ruoyi
  */
-public interface ISysRoleService {
+public interface ISysRoleService extends IService<SysRole> {
     /**
      * 根据条件分页查询角色数据
      *
