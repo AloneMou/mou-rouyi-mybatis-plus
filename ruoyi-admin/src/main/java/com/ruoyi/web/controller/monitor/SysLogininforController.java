@@ -29,6 +29,7 @@ import com.ruoyi.system.service.ISysLogininforService;
 @RestController
 @RequestMapping("/monitor/logininfor")
 public class SysLogininforController extends BaseController {
+
     @Autowired
     private ISysLogininforService logininforService;
 
