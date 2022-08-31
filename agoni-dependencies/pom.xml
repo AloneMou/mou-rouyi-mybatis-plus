@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ruoyi</groupId>
-    <artifactId>rouyi-dependencies</artifactId>
+    <groupId>com.agoni</groupId>
+    <artifactId>agoni-dependencies</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
     <description>管理整个项目的依赖版本</description>
@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- 统一依赖管理 -->
-        <spring.boot.version>.6.10</spring.boot.version>
+        <spring.boot.version>2.6.10</spring.boot.version>
         <!-- Web 相关 -->
         <knife4j.version>3.0.3</knife4j.version>
         <swagger-annotations.version>1.6.6</swagger-annotations.version>

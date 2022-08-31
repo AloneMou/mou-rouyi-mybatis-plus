@@ -3,14 +3,14 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.ruoyi</groupId>
-    <artifactId>ruoyi</artifactId>
+    <groupId>com.agoni</groupId>
+    <artifactId>agoni</artifactId>
     <version>${revision}</version>
-
-    <name>ruoyi</name>
-    <description>若依管理系统</description>
     <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>项目基础脚手架</description>
+
 
     <properties>
         <revision>3.8.3</revision>
@@ -29,8 +29,8 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.ruoyi</groupId>
-                <artifactId>rouyi-dependencies</artifactId>
+                <groupId>com.agoni</groupId>
+                <artifactId>agoni-dependencies</artifactId>
                 <version>${revision}</version>
                 <type>pom</type>
                 <scope>import</scope>
@@ -39,9 +39,9 @@
     </dependencyManagement>
 
     <modules>
-        <module>rouyi-dependencies</module>
-        <module>ruoyi-framework</module>
-        <module>ruoyi-admin</module>
+        <module>agoni-dependencies</module>
+        <module>agoni-framework</module>
+        <module>agoni-admin</module>
     </modules>
 
     <build>
