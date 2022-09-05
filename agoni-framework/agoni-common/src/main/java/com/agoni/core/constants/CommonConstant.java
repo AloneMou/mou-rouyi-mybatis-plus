@@ -1,0 +1,30 @@
+package com.agoni.core.constants;
+
+/**
+ * 通用常量管理
+ *
+ * @author AgoniMou
+ */
+public interface CommonConstant {
+
+    /**
+     * 顺序 - 升序
+     */
+    public static final String ORDER_ASC = "asc";
+
+    /**
+     * 顺序 - 降序
+     */
+    public static final String ORDER_DESC = "desc";
+
+    /**
+     * 页码
+     */
+    public static final Integer PAGE_NO = 1;
+
+    /**
+     * 页大小
+     */
+    public static final Integer PAGE_SIZE = 10;
+
+}
