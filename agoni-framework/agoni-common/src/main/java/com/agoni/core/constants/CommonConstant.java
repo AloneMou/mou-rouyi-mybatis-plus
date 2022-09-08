@@ -27,4 +27,8 @@ public interface CommonConstant {
      */
     public static final Integer PAGE_SIZE = 10;
 
+    /**
+     * 数据类型String 阿拉伯数字0
+     */
+    public static final String STR_ZERO = "0";
 }

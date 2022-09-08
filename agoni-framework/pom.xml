@@ -16,6 +16,7 @@
     </description>
     <modules>
         <module>agoni-common</module>
+        <module>agoni-ip2region</module>
     </modules>
 
 </project>
