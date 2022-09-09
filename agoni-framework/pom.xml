@@ -16,7 +16,10 @@
     </description>
     <modules>
         <module>agoni-common</module>
-        <module>agoni-ip2region</module>
+        <module>agoni-spring-boot-starter-ip2region</module>
+        <module>agoni-spring-boot-starter-redis</module>
+        <module>agoni-spring-boot-starter-protection</module>
+        <module>agoni-spring-boot-starter-validation</module>
     </modules>
 
 </project>

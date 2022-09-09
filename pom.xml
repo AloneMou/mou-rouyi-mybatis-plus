@@ -42,6 +42,7 @@
         <module>agoni-dependencies</module>
         <module>agoni-framework</module>
         <module>agoni-admin</module>
+        <module>agoni-module-sys-biz</module>
     </modules>
 
     <build>

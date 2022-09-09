@@ -323,6 +323,22 @@
                 <artifactId>agoni-common</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <dependency>
+                <groupId>com.agoni</groupId>
+                <artifactId>agoni-spring-boot-starter-redis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.agoni</groupId>
+                <artifactId>agoni-spring-boot-starter-protection</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.agoni</groupId>
+                <artifactId>agoni-spring-boot-starter-ip2region</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>

@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.agoni.protection.idempotent.config.CustomIdempotentConfiguration,\
+  com.agoni.protection.lock4j.config.CustomLock4jConfiguration

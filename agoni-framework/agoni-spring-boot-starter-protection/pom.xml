@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>agoni-framework</artifactId>
+        <groupId>com.agoni</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>agoni-spring-boot-starter-protection</artifactId>
+
+
+    <dependencies>
+
+        <dependency>
+            <groupId>com.agoni</groupId>
+            <artifactId>agoni-spring-boot-starter-redis</artifactId>
+        </dependency>
+
+        <!-- 服务保障相关 -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>lock4j-redisson-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.resilience4j</groupId>
+            <artifactId>resilience4j-spring-boot2</artifactId>
+        </dependency>
+    </dependencies>
+</project>

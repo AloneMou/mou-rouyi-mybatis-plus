@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.agoni.ip2region.config.Ip2regionConfiguration
