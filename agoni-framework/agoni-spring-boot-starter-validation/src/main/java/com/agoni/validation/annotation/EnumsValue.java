@@ -14,7 +14,6 @@ import java.lang.annotation.*;
         ElementType.CONSTRUCTOR, ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-// 指定此注解的实现，即:验证器
 @Constraint(validatedBy = EnumsValidator.class)
 public @interface EnumsValue {
 

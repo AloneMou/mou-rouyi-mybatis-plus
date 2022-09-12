@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>agoni-spring-boot-starter-protection</artifactId>
-
+    <packaging>jar</packaging>
 
     <dependencies>
 
