@@ -72,6 +72,7 @@
         <commons.fileupload.version>1.4</commons.fileupload.version>
         <commons.collections.version>3.2.2</commons.collections.version>
         <commons.lang3.version>3.12.0</commons.lang3.version>
+        <IJPay.version>2.8.1</IJPay.version>
     </properties>
 
     <dependencyManagement>
@@ -316,6 +317,12 @@
                 <groupId>commons-collections</groupId>
                 <artifactId>commons-collections</artifactId>
                 <version>${commons.collections.version}</version>
+            </dependency>
+            <!-- pay-->
+            <dependency>
+                <groupId>com.github.javen205</groupId>
+                <artifactId>IJPay-All</artifactId>
+                <version>${IJPay.version}</version>
             </dependency>
 
             <dependency>
