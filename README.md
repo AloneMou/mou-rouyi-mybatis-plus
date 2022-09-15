@@ -22,4 +22,7 @@
 | Hibernator-Validator | 验证框架            | http://hibernate.org/validator                 |
 
 
+### 许可证
+![Apache License 2.0](/LICENSE)
 
+Copyright (c) 2021-2022 AloneMou
