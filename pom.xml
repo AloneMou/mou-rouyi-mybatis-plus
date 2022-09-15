@@ -39,7 +39,7 @@
     <modules>
         <module>agoni-dependencies</module>
         <module>agoni-framework</module>
-        <module>agoni-module-sys-biz</module>
+        <module>agoni-module-sys</module>
         <module>agoni-server</module>
     </modules>
 

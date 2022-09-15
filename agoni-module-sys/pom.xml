@@ -8,11 +8,14 @@
         <version>${revision}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>agoni-module-sys-biz</artifactId>
+    <artifactId>agoni-module-sys</artifactId>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
     <description>
         sys 模块下，我们放通用业务，支撑上层的核心业务。
         例如说：用户、部门、权限、数据字典等等
     </description>
+    <modules>
+        <module>agoni-module-sys-biz-api</module>
+    </modules>
 </project>
