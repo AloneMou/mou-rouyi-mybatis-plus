@@ -18,3 +18,6 @@
 | PageHelper           | MyBatis物理分页插件 | http://git.oschina.net/free/Mybatis_PageHelper |
 | Swagger-UI           | 文档生成工具        | https://github.com/swagger-api/swagger-ui      |
 | Hibernator-Validator | 验证框架            | http://hibernate.org/validator                 |
+
+
+![Alt](https://repobeats.axiom.co/api/embed/3c93a796e42fcd6a60cc38296625c6f869391f2c.svg "Repobeats analytics image")
