@@ -1,5 +1,6 @@
 package com.agoni.pojo;
 
+import com.agoni.exception.ResultCode;
 import com.agoni.exception.enums.GlobalErrorCodeConstants;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -51,5 +52,9 @@ public class CommonResult<T> implements Serializable {
         result.code = code;
         result.msg = message;
         return result;
+    }
+
+    public static <T> CommonResult<T> error(ResultCode errorCode) {
+        return error(errorCode.getCode(), errorCode.getMsg());
     }
 }

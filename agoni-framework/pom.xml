@@ -22,6 +22,8 @@
         <module>agoni-spring-boot-starter-validation</module>
         <module>agoni-spring-boot-starter-elasticsearch</module>
         <module>agoni-spring-boot-starter-mybatis</module>
+        <module>agoni-spring-boot-starter-web</module>
+        <module>agoni-spring-boot-starter-swagger</module>
     </modules>
 
 </project>

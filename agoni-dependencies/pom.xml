@@ -345,6 +345,26 @@
                 <artifactId>agoni-spring-boot-starter-ip2region</artifactId>
                 <version>${revision}</version>
             </dependency>
+            <dependency>
+                <groupId>com.agoni</groupId>
+                <artifactId>agoni-spring-boot-starter-elasticsearch</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.agoni</groupId>
+                <artifactId>agoni-spring-boot-starter-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.agoni</groupId>
+                <artifactId>agoni-spring-boot-starter-validation</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.agoni</groupId>
+                <artifactId>agoni-spring-boot-starter-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
 
 
         </dependencies>
