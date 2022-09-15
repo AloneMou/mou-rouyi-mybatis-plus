@@ -23,6 +23,6 @@
 
 
 ### 许可证
-![Apache License 2.0](/LICENSE)
+[Apache License 2.0](/LICENSE)
 
 Copyright (c) 2021-2022 AloneMou
