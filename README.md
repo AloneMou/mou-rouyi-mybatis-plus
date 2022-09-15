@@ -3,6 +3,8 @@
 
 ## mou-rouyi-mybatis-plus
 
+![Alt](https://repobeats.axiom.co/api/embed/3c93a796e42fcd6a60cc38296625c6f869391f2c.svg "Repobeats analytics image")
+
 ### 后端技术
 
 | 技术                 | 说明                | 官网                                           |
@@ -20,4 +22,7 @@
 | Hibernator-Validator | 验证框架            | http://hibernate.org/validator                 |
 
 
-![Alt](https://repobeats.axiom.co/api/embed/3c93a796e42fcd6a60cc38296625c6f869391f2c.svg "Repobeats analytics image")
+### 许可证
+[Apache License 2.0](/LICENSE)
+
+Copyright (c) 2021-2022 AloneMou
