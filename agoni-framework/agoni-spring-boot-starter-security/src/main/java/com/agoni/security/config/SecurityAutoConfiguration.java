@@ -26,7 +26,7 @@ import javax.annotation.Resource;
  * 注意，不能和 {@link CustomWebSecurityConfigurerAdapter} 用一个，原因是会导致初始化报错。
  * 参见 https://stackoverflow.com/questions/53847050/spring-boot-delegatebuilder-cannot-be-null-on-autowiring-authenticationmanager 文档。
  *
- * @author 芋道源码
+ * @author AgoniMou
  */
 @Configuration(proxyBeanMethods = false)
 @EnableConfigurationProperties(SecurityProperties.class)

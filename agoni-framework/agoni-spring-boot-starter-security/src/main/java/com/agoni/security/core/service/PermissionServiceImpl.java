@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 /**
  * 默认的 {@link PermissionService} 实现类
  *
- * @author 芋道源码
+ * @author AgoniMou
  */
 @AllArgsConstructor
 public class PermissionServiceImpl implements PermissionService {

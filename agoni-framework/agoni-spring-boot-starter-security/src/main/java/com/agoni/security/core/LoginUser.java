@@ -11,7 +11,7 @@ import java.util.Map;
 /**
  * 登录用户信息
  *
- * @author 芋道源码
+ * @author AgoniMou
  */
 @Data
 public class LoginUser {
@@ -20,16 +20,14 @@ public class LoginUser {
      * 用户编号
      */
     private Long id;
+
     /**
      * 用户类型
-     *
+     * <p>
      * 关联 {@link UserTypeEnum}
      */
     private Integer userType;
-    /**
-     * 租户编号
-     */
-    private Long tenantId;
+    
     /**
      * 授权范围
      */
@@ -38,7 +36,7 @@ public class LoginUser {
     // ========== 上下文 ==========
     /**
      * 上下文字段，不进行持久化
-     *
+     * <p>
      * 1. 用于基于 LoginUser 维度的临时缓存
      */
     @JsonIgnore

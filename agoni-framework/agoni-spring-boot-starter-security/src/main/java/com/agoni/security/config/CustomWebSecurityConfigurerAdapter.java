@@ -28,7 +28,7 @@ import java.util.Set;
 /**
  * 自定义的 Spring Security 配置适配器实现
  *
- * @author 芋道源码
+ * @author AgoniMou
  */
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)

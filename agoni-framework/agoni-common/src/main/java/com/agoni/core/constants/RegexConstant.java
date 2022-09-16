@@ -4,8 +4,11 @@ import cn.hutool.core.lang.RegexPool;
 
 /**
  * 常用正则表达式字符串池
+ *
+ * @author AgoniMou
+ * @since 2022-09-16
  */
-public class RegexConstant implements RegexPool {
+public interface RegexConstant extends RegexPool {
 
     /**
      * 整数例如：-10，10，0
@@ -35,4 +38,10 @@ public class RegexConstant implements RegexPool {
     public static final String CRYPTOGRAPHIC_STRENGTH_TWO_REGEX = "^(?![a-zA-Z]+$)(?![A-Z0-9]+$)(?![A-Z\\W_!@#$%^&*`~()-+=]+$)(?![a-z0-9]+$)(?![a-z\\W_!@#$%^&*`~()-+=]+$)(?![0-9\\W_!@#$%^&*`~()-+=]+$)[a-zA-Z0-9\\W_!@#$%^&*`~()-+=]";
 
     //    public static final String
+
+    /**
+     * 身份证校验 15/18位身份证号码验证
+     */
+    public static final String CARD_NO = "^[1-9]\\d{5}(18|19|([23]\\d))\\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\\d{3}[0-9Xx]$)|(^[1-9]\\d{5}\\d{2}((0[1-9])|(10|11|12))(([0-2][1-9])|10|20|30|31)\\d{2}$";
+
 }
